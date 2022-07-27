@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+.qr-code-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 6rem 0;
+}
+
+.card-container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 1rem;
+    border-radius: 15px;
+
+}
+
+.qr-code-img {
+    width: 100%;
+}
+
+.text {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.qr-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.qr-subtitle {
+    margin-top: 1rem;
+    padding: 0 1rem;
+
+}
+
+@media (min-width: 700px) {
+
+    .qr-code-container {
+        max-width: 350px;
+
+
+    }
+}
